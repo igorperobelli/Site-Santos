@@ -1,0 +1,52 @@
+* {        /*Configurações padrões de início de um projeto dentro do CSS  */
+    padding: 0;            
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: darkgray;
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+header > h1 {
+    color: black;
+    font-size: 45px;
+
+}
+header > img {
+    width: 200px;
+    height: 180px;
+}
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+#list-menu {
+    display: flex;
+    margin-right: 1rem;
+}
+.itens-menu-header{
+    margin-right: 25px;
+}
+.itens-menu-header > a:hover {
+    color: yellow;
+    transition: 1s;
+}
+.itens-menu-header > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+}
+#img-destaque{
+    padding: 260px;
+    background-image: url(imagens/idolos.webp);
+    background-position: center;
+}
