@@ -106,3 +106,114 @@ main > section > h2{
     align-items: center;  /* Alinhar os itens para o centro */
     margin-top: 10px; /* indica o espaço acima do elemento / superior */
 } 
+
+.img-div2{
+    padding: 260px;
+    background-image: url(imagens/img.div2.jpeg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#sobre-nos { /* Chamamos aqui nossa ID */
+    background-color: beige;
+    background-repeat: no-repeat; /* Aqui colocamos a função para a imagem não seja repetida */
+    background-attachment: fixed; /* */
+    background-position: center; /* Na posição da imagem colocamos ao centro */
+    background-size: cover; /* */
+    padding: 120px; /* */
+}
+ 
+#sobre-nos > h3 {  /* */
+    color: rgb(0, 0, 0); /* */
+    font-size: 64px; /* */
+    text-align: center; /* */
+    font-family: 'Ubuntu', 'sans-serif'; /* */
+}
+
+#sobre-nos >  p {   /* */ 
+    font-family: 'Ubuntu', 'sans-serif'; /* */
+    font-weight: 500; /* */
+    color: rgb(0, 0, 0); /* */
+    font-size: 22px; /* */
+    margin-top: 2em; /* */
+    text-align: left; /* */
+    
+}
+.img-div3{
+    padding: 260px;
+    background-image: url(imagens/Sala\ de\ trofeus.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.img-div4{
+    padding: 260px;
+    background-image: url(imagens/img-div3.jpeg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#titulos { /* Chamamos aqui nossa ID */
+    background-color: beige;
+    background-repeat: no-repeat; /* Aqui colocamos a função para a imagem não seja repetida */
+    background-attachment: fixed; /* */
+    background-position: center; /* Na posição da imagem colocamos ao centro */
+    background-size: cover; /* */
+    padding: 120px; /* */
+}
+ 
+#titulos > h3 {  /* */
+    color: rgb(0, 0, 0); /* */
+    font-size: 64px; /* */
+    text-align: center; /* */
+    font-family: 'Ubuntu', 'sans-serif'; /* */
+}
+
+#titulos >  p {   /* */ 
+    font-family: 'Ubuntu', 'sans-serif'; /* */
+    font-weight: 500; /* */
+    color: rgb(0, 0, 0); /* */
+    font-size: 22px; /* */
+    margin-top: 2em; /* */
+    text-align: left; /* */
+    
+}
+
+footer {    /* */
+    padding: 80px;  /* */
+    background-color: beige;
+    background-position: bottom;  /* */
+    background-repeat: no-repeat;  /* */
+    
+}
+
+footer > ul {   /* */
+    display: flex;  /* */
+    justify-content: space-evenly;  /* */
+}
+
+footer > h2 {  /* */
+    color: black bold; /* */
+    font-size: 40px;  /* */
+    font-weight: bold;  /* */
+    text-align: center;  /* */
+    margin-bottom: 1em;  /* */
+}
+
+.item-menu-footer {  /* */
+    display: flex;  /* */
+    align-items: center;  /* */
+    margin-top: 30px;  /* */
+}
+
+.item-menu-footer > img {  /* */
+    width: 34px;  /* */
+    height: 34px;  /* */
+}
+
+.item-menu-footer > p {  /* */
+    color: black bold; /* */
+    font-size: 24px; /* */
+    font-weight: bold; /* */
+    margin-left: 10px; /* */
+}
