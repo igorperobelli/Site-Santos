@@ -45,8 +45,64 @@ header > img {
     text-decoration: none;
     font-size: 12px;
 }
-#img-destaque{
+.img-div{
     padding: 260px;
-    background-image: url(imagens/idolos.webp);
+    background-image: url(imagens/sports-santos_fc-emblem-logo-soccer-454300.jpeg);
     background-position: center;
+    background-size: 100%;
 }
+
+main > section > h2{
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+
+#jogadores{
+    background-color: beige;
+    margin-top: 0;
+    padding: 50px;
+}
+
+.line{
+    margin: 0 auto;
+    width: 20%;
+}
+
+#jogadores-list {  /* Aqui chamamos a nossa ID */ 
+    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+    align-items: center; /* Alinhar os itens para o centro */
+    justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
+    margin-top: 30px; /* indica o espaço acima do elemento / superior */
+}
+
+.jogadores-item{ /* Aqui chamamos nossa Class que está dentro da nossa ID */
+    display: flex; /* Responsável por colocar os itens na mesma linha (lado a lado) */
+    justify-content: center; /* Justificar-conteúdo no centro */
+    align-items: center; /* Alinhar os itens para o centro */
+    flex-direction: column; /*  */
+}
+.jogadores-joao > img { /* Aqui chamamos nossa TAG IMG para estilização  */
+    width: 230px; /* Largura */
+    height: 200px; /* Tamanho */
+}
+
+.jogadores-item > img { /* Aqui chamamos nossa TAG IMG para estilização  */
+    width: 230px; /* Largura */
+    height: 200px; /* Tamanho */
+}
+
+.jogadores-item > h3{ /* Aqui chamamos nosso H3 para estilizar*/
+    font-family: 'Dancing script', cursive; /* Fonte escolhida */
+    font-size: 32px;/* Tamanho da fonte*/
+    align-items: center;  /* Alinhar os itens para o centro */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
+}
+
+.jogadores-item > p {
+    font-family: 'Dancing script', cursive; /* Fonte escolhida */
+    font-size: 26px;/* Tamanho da fonte*/
+    align-items: center;  /* Alinhar os itens para o centro */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
+} 
